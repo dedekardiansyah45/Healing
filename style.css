@@ -1,0 +1,252 @@
+*{
+    text-decoration: none;
+    margnin:0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: rekative;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight:bold;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1aa4f5;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background:#FFFFFF;
+    z-index: 1;
+    border-bottom: 1px solid #e7ebec;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration:underline;
+} 
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 175px;
+    margin-bottom: 185px;
+
+}
+.kolom .deskripsi{
+    font-size: 15px;
+    font-weight: initial;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(253, 0, 51);
+    
+}
+p{
+    font-size: 15px;
+    font-weight: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-style: unset;
+
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #029cbe;
+    font-weight: bold;
+}
+a.tbl-biru{
+    background-color:#1aa4f5 ;
+    border-radius: 500px;
+    margin-top: 50px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #930eff;
+    text-decoration: none;
+}
+
+a.tbl-pink{
+    background-color:#2b52ff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background:#c0bcbd;
+    text-decoration: none; 
+}
+
+p{
+    margin: 15px 0px 15px 0px;
+    padding:15px 0px 15px 0px;
+}
+
+.partner-list{
+    width: 90%;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;  
+}
+
+.kartu-partner{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.kartu-partner img{
+    width: 130px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.btn-floating:hover {
+     width: auto;
+     padding: 20px;
+     cursor: pointer;
+}
+.btn-floating span{
+    font-size: 16px;
+    margin left: 5px;
+    transition: .2s;
+    line-height: 0px;
+    display: none;
+ }
+   
+.btn-floating:hover span{
+    display: inline-block;
+}
+
+.btn-floating:hover img{
+    margin-bottom: -3px;
+}
+
+.btn-floating.whatsapp{
+    bottom: 25px;
+    background-color: rgba(106, 212, 0, 0.87)255, 0, 0.952);
+    border: 2px solid #fff;
+}
+.btn-floating.whatsapp:hover{
+    background-color: #1f7a12;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+    width: 100px;
+    line-height: 30px;
+    
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+
+    nav .menu{
+        width: 100%;
+        margin: 0%;
+    }
+
+    nav .menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 45px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+        height: auto;
+        text-align: center;
+    }
+
+    section{
+        display: block;
+        width: 100%;
+        text: size adjust 35%;
+    }
+    section img{
+        display: block;
+    }
+    .kartu-partner {
+        width: 20px;
+    }
